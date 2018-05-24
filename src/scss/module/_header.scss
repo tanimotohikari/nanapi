@@ -1,0 +1,9 @@
+.header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
