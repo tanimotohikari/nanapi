@@ -48,6 +48,13 @@ body, a {
   clear: both; }
 
 /*--------------------
+  コンテンツのインナー
+--------------------*/
+.l-inner {
+  width: 970px;
+  margin: 0 auto; }
+
+/*--------------------
   コンテンツ寄せ　左右
 --------------------*/
 .left {
@@ -59,6 +66,3 @@ body, a {
 .header {
   background-color: #f4f4f4;
   border-bottom: 1px solid #ccc; }
-  .header > * {
-    display: inline-block;
-    vertical-align: middle; }
