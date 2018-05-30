@@ -1,0 +1,38 @@
+.layout-footer {
+
+  & > * {
+    float: left;
+  }
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  .layout-footer-contents {
+    width: 40%;
+  }
+
+  .layout-footer-sitemap {
+    width: 60%;
+
+    & > * {
+      width: 23.6%;
+      float: left;
+    }
+
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+
+    .layout-footer-sitemap-list {
+
+      & > * {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

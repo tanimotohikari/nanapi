@@ -1,0 +1,32 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+
+  .footer-description {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .footer-copylight {
+    color: #747474;
+    font-size: 10px;
+  }
+
+  .footer-sitemap {
+    color: #747474;
+
+    .footer-sitemap-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .footer-sitemap-anchor {
+      color: #747474;
+      font-size: 12px;
+
+      &:hover {
+        color: #2b7bb9;
+      }
+    }
+  }
+}

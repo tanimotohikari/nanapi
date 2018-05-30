@@ -1,7 +1,7 @@
 /*--------------------
   コンテンツのインナー
 --------------------*/
-.l-inner {
+.layout-inner {
   width: 970px;
   margin: 0 auto;
 }
@@ -17,4 +17,24 @@
 
 .right {
   float: right;
+}
+
+/*--------------------
+  margin
+--------------------*/
+
+.layout-bottom-small {
+  margin-bottom: 10px;
+}
+
+.layout-bottom {
+  margin-bottom: 20px;
+}
+
+.layout-bottom-large {
+  margin-bottom: 30px;
+}
+
+.layout-bottom-xlarge {
+  margin-bottom: 40px;
 }

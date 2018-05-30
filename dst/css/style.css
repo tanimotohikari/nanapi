@@ -50,7 +50,7 @@ body, a {
 /*--------------------
   コンテンツのインナー
 --------------------*/
-.l-inner {
+.layout-inner {
   width: 970px;
   margin: 0 auto; }
 
@@ -63,6 +63,67 @@ body, a {
 .right {
   float: right; }
 
+/*--------------------
+  margin
+--------------------*/
+.layout-bottom-small {
+  margin-bottom: 10px; }
+
+.layout-bottom {
+  margin-bottom: 20px; }
+
+.layout-bottom-large {
+  margin-bottom: 30px; }
+
+.layout-bottom-xlarge {
+  margin-bottom: 40px; }
+
+.layout-footer > * {
+  float: left; }
+
+.layout-footer:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.layout-footer .layout-footer-contents {
+  width: 40%; }
+
+.layout-footer .layout-footer-sitemap {
+  width: 60%; }
+  .layout-footer .layout-footer-sitemap > * {
+    width: 23.6%;
+    float: left; }
+  .layout-footer .layout-footer-sitemap:after {
+    content: '';
+    clear: both;
+    display: block; }
+  .layout-footer .layout-footer-sitemap .layout-footer-sitemap-list > * {
+    margin-bottom: 10px; }
+
 .header {
   background-color: #f4f4f4;
   border-bottom: 1px solid #ccc; }
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 60px 0; }
+  .footer .footer-description {
+    font-size: 14px;
+    line-height: 1.7; }
+  .footer .footer-copylight {
+    color: #747474;
+    font-size: 10px; }
+  .footer .footer-sitemap {
+    color: #747474; }
+    .footer .footer-sitemap .footer-sitemap-title {
+      font-size: 14px;
+      font-weight: bold; }
+    .footer .footer-sitemap .footer-sitemap-anchor {
+      color: #747474;
+      font-size: 12px; }
+      .footer .footer-sitemap .footer-sitemap-anchor:hover {
+        color: #2b7bb9; }
+
+.anchor:hover {
+  color: #2b7bb9; }
