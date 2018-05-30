@@ -55,6 +55,18 @@ body, a {
   margin: 0 auto; }
 
 /*--------------------
+  コンテンツの幅
+--------------------*/
+.layout-body {
+  width: 66%;
+  float: left; }
+
+.layout-side {
+  width: 30%;
+  float: left;
+  margin-left: 4%; }
+
+/*--------------------
   コンテンツ寄せ　左右
 --------------------*/
 .left {
