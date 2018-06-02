@@ -90,6 +90,24 @@ body, a {
 .layout-bottom-xlarge {
   margin-bottom: 40px; }
 
+.layout-left-samll {
+  margin-left: 10px; }
+
+.layout-left {
+  margin-left: 20px; }
+
+.layout-left-large {
+  margin-left: 30px; }
+
+/*--------------------
+  コンテンツの大きさ
+--------------------*/
+.full {
+  width: 100%; }
+
+.half {
+  width: 50%; }
+
 .layout-footer > * {
   float: left; }
 
@@ -112,6 +130,27 @@ body, a {
     display: block; }
   .layout-footer .layout-footer-sitemap .layout-footer-sitemap-list > * {
     margin-bottom: 10px; }
+
+.layout-mainVisual:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.layout-mainVisual .layout-mainVisual-title {
+  width: 27%;
+  float: left; }
+
+.layout-mainVisual .layout-mainVisual-navi {
+  width: 66%;
+  float: left; }
+  .layout-mainVisual .layout-mainVisual-navi > li {
+    width: 31%;
+    float: left;
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    box-sizing: border-box; }
+    .layout-mainVisual .layout-mainVisual-navi > li:last-child {
+      margin-right: 0; }
 
 .header {
   background-color: #f4f4f4;
