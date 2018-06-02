@@ -75,3 +75,37 @@
 .half {
   width: 50%;
 }
+
+/*--------------------
+  テキストの位置
+--------------------*/
+
+.layout-align-left {
+  text-align: left;
+}
+
+.layout-align-right {
+  text-align: right;
+}
+
+/*--------------------
+  2カラムレイアウト
+--------------------*/
+.layout-half {
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  & > * {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
