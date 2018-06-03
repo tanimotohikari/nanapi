@@ -200,8 +200,22 @@ body, a {
       .footer .footer-sitemap .footer-sitemap-anchor:hover {
         color: #2b7bb9; }
 
-.anchor:hover {
+.anchor {
   color: #2b7bb9; }
+  .anchor.anchor-arrow {
+    position: relative; }
+    .anchor.anchor-arrow:after {
+      border: 2px solid;
+      border-color: #2B7BB9 #2B7BB9 transparent transparent;
+      content: '';
+      display: inline-block;
+      transform: rotate(45deg);
+      margin: -5px 0;
+      width: 4px;
+      height: 4px;
+      position: absolute;
+      top: 50%;
+      right: 0; }
 
 .article {
   border-top: 2px solid rgba(202, 179, 136, 0.7);
@@ -310,5 +324,7 @@ body, a {
     content: '#';
     color: #969696;
     padding-right: 5px; }
+  .tag:hover {
+    background-color: #F4F4F4; }
   .tag .tag-anchor {
     color: #969696; }

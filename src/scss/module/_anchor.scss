@@ -1,6 +1,21 @@
 .anchor {
+  color: #2b7bb9;
 
-  &:hover {
-    color: #2b7bb9;
+  &.anchor-arrow {
+    position: relative;
+
+    &:after {
+      border: 2px solid;
+      border-color: #2B7BB9 #2B7BB9 transparent transparent;
+      content: '';
+      display: inline-block;
+      transform: rotate(45deg);
+      margin: -5px 0;
+      width: 4px;
+      height: 4px;
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
   }
 }
