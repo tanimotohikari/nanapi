@@ -1,0 +1,18 @@
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  border: 1px solid #969696;
+  padding: 8px 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+
+  &:before {
+    content: '#';
+    color: #969696;
+    padding-right: 5px;
+  }
+
+  .tag-anchor {
+    color: #969696;
+  }
+}
