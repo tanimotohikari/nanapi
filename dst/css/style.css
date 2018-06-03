@@ -59,7 +59,8 @@ body, a {
 --------------------*/
 .layout-body {
   width: 66%;
-  float: left; }
+  float: left;
+  margin-bottom: 80px; }
 
 .layout-side {
   width: 30%;
@@ -226,6 +227,8 @@ body, a {
 .article {
   border-top: 2px solid rgba(202, 179, 136, 0.7);
   padding-top: 20px; }
+  .article.feature {
+    border-top: 2px solid rgba(255, 134, 134, 0.7); }
   .article .article-title {
     font-size: 19px;
     font-weight: bold; }
@@ -280,6 +283,8 @@ body, a {
 .article {
   border-top: 2px solid rgba(202, 179, 136, 0.7);
   padding-top: 20px; }
+  .article.feature {
+    border-top: 2px solid rgba(255, 134, 134, 0.7); }
   .article .article-title {
     font-size: 19px;
     font-weight: bold; }

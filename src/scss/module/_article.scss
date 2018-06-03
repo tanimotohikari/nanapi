@@ -2,6 +2,10 @@
   border-top: 2px solid rgba(202, 179, 136, .7);
   padding-top: 20px;
 
+  &.feature {
+    border-top: 2px solid rgba(255, 134, 134, .7);
+  }
+
   .article-title {
     font-size: 19px;
     font-weight: bold;
