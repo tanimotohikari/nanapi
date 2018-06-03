@@ -104,7 +104,7 @@
     float: left;
     margin-right: 4%;
 
-    &:last-child {
+    &:nth-child(2n) {
       margin-right: 0;
     }
   }

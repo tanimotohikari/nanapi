@@ -129,7 +129,7 @@ body, a {
   width: 48%;
   float: left;
   margin-right: 4%; }
-  .layout-half > *:last-child {
+  .layout-half > *:nth-child(2n) {
     margin-right: 0; }
 
 .layout-footer > * {
@@ -176,6 +176,9 @@ body, a {
     .layout-mainVisual .layout-mainVisual-navi > li:last-child {
       margin-right: 0; }
 
+.layout-article .layout-article-item {
+  margin-bottom: 10px; }
+
 .header {
   background-color: #f4f4f4;
   border-bottom: 1px solid #ccc; }
@@ -201,9 +204,12 @@ body, a {
         color: #2b7bb9; }
 
 .anchor {
-  color: #2b7bb9; }
+  color: #2b7bb9;
+  font-size: 14px;
+  font-weight: bold; }
   .anchor.anchor-arrow {
-    position: relative; }
+    position: relative;
+    padding-right: 10px; }
     .anchor.anchor-arrow:after {
       border: 2px solid;
       border-color: #2B7BB9 #2B7BB9 transparent transparent;
@@ -249,12 +255,18 @@ body, a {
       position: absolute;
       bottom: 12px;
       right: 6px;
-      color: #fca87d;
+      color: #969696;
       font-size: 10px;
       line-height: 1.5em;
-      border: 2px solid #fca87d;
+      border: 2px solid #969696;
       background-color: #fff;
       padding: 1px 5px; }
+      .article .article-thumbnail .article-thumbnail-category.cuisine {
+        color: #fca87d;
+        border: 2px solid #fca87d; }
+      .article .article-thumbnail .article-thumbnail-category.living {
+        clor: #a696de;
+        border: 2px solid #a696de; }
   .article .article-item-title {
     font-size: 16px;
     font-weight: bold; }
@@ -297,12 +309,18 @@ body, a {
       position: absolute;
       bottom: 12px;
       right: 6px;
-      color: #fca87d;
+      color: #969696;
       font-size: 10px;
       line-height: 1.5em;
-      border: 2px solid #fca87d;
+      border: 2px solid #969696;
       background-color: #fff;
       padding: 1px 5px; }
+      .article .article-thumbnail .article-thumbnail-category.cuisine {
+        color: #fca87d;
+        border: 2px solid #fca87d; }
+      .article .article-thumbnail .article-thumbnail-category.living {
+        clor: #a696de;
+        border: 2px solid #a696de; }
   .article .article-item-title {
     font-size: 16px;
     font-weight: bold; }

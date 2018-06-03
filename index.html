@@ -6,9 +6,8 @@
 <meta name='description' content='ここにディスクリプションのテキストが入ります'>
 <meta name=”keywords” content='ここにキーワードのテキストが入ります'>
 <title>nanapi [ナナピ] | わかる・できる・たのしい！暮らしの情報サイト</title>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<!-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> -->
 <link rel='stylesheet' type='text/css' href='dst/css/style.css' media='all' />
-<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous'>
 </head>
 <body>
   <header class='layout-bottom header'>
@@ -37,49 +36,224 @@
     </ul>
   </div>
   <div class="layout-inner clearfix">
-    <article class='layout-body article'>
-      <div class='layout-bottom clearfix'>
-        <h2 class='left article-title'>今一番ホットなライフレシピ</h2>
-        <p class='right article-subtitle'>数時間のうちにたくさん見られたレシピです</p>
-      </div>
-      <ul class='layout-half'>
-        <li class='article-item'>
-          <a class='article-item-anchor' href='#'>
-            <div class='layout-bottom-small article-thumbnail'>
-              <img class='full' src="./dst/img/hot-recipe01.jpg" alt="レンジで簡単!自家製「ガリ」の作り方">
-              <span class='article-thumbnail-label'>27人がみています</span>
-              <span class='article-thumbnail-category'>料理</span>
-            </div>
-            <h3 class='layout-bottom-small article-item-title'>レンジで簡単！ 自家製「ガリ」の作り方</h3>
-            <p class='layout-bottom-small'>自家製「ガリ」は一度作ったらもう市販のは食べられなくなるほど美味しいぞ！新生姜＋酢＋砂糖＋塩だけで作れて自分好みの甘酸っぱさに簡単調節。新しょうがはハウス栽培が5月頃、露地栽培は11月頃が旬だよ。</p>
-          </a>
-          <ul class='full' class='tag-list'>
-            <li class='tag'><a class='tag-anchor' href="#">お漬物</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">常備菜</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">自家製シリーズ</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">暑い日・夏に食べたい</a></li>
-          </ul>
-        </li>
-        <li class='article-item'>
-          <a class='article-item-anchor' href='#'>
-            <div class='layout-bottom-small article-thumbnail'>
-              <img class='full' src="./dst/img/hot-recipe02.jpg" alt="">
-              <p class='article-thumbnail-label'>75人がみています</p>
-              <p class='article-thumbnail-category'>料理</p>
-            </div>
-            <h3 class='layout-bottom-small article-item-title'>ほおばる幸せ！純喫茶風「ボリュームたまごサンド」の作り方</h3>
-            <p class='layout-bottom-small'>純喫茶でレトロカップを傾けるタイプの厚焼きたまごサンドは、たまご焼きが下手でも熱いうちにラップに包めばきれいに固まるので大丈夫。問題はかぶりつくとほっぺたパンパン美味しさじゅわぁ...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
-          </a>
-          <ul class='label-list'>
-            <li class='tag'><a class='tag-anchor' href="#">純喫茶風メニュー</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">nanapi編集部取材記事</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">サンドイッチ</a></li>
-            <li class='tag'><a class='tag-anchor' href="#">食パン使った料理</a></li>
-          </ul>
-        </li>
-      </ul>
-      <p class='layout-align-right'><a class='anchor text-bold' href="#">nanapiの特集をもっとみる</a></p>
-    </article>
+    <div class='layout-body'>
+      <article class='layout-article layout-bottom-large article'>
+        <div class='layout-bottom clearfix'>
+          <h2 class='left article-title'>今一番ホットなライフレシピ</h2>
+          <p class='right article-subtitle'>数時間のうちにたくさん見られたレシピです</p>
+        </div>
+        <ul class='layout-half layout-bottom'>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe01.jpg" alt="レンジで簡単!自家製「ガリ」">
+                <span class='article-thumbnail-label'>27人がみています</span>
+                <span class='article-thumbnail-category cuisine'>料理</span>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>レンジで簡単！ 自家製「ガリ」の作り方</h3>
+              <p class='layout-bottom-small'>自家製「ガリ」は一度作ったらもう市販のは食べられなくなるほど美味しいぞ！新生姜＋酢＋砂糖＋塩だけで作れて自分好みの甘酸っぱさに簡単調節。新しょうがはハウス栽培が5月頃、露地栽培は11月頃が旬だよ。</p>
+            </a>
+            <ul class='full' class='tag-list'>
+              <li class='tag'><a class='tag-anchor' href="#">お漬物</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">常備菜</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">自家製シリーズ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">暑い日・夏に食べたい</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe02.jpg" alt="純喫茶風「ボリュームたまごサンド」">
+                <p class='article-thumbnail-label'>75人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ほおばる幸せ！純喫茶風「ボリュームたまごサンド」の作り方</h3>
+              <p class='layout-bottom-small'>純喫茶でレトロカップを傾けるタイプの厚焼きたまごサンドは、たまご焼きが下手でも熱いうちにラップに包めばきれいに固まるので大丈夫。問題はかぶりつくとほっぺたパンパン美味しさじゅわぁ...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">純喫茶風メニュー</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">nanapi編集部取材記事</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">サンドイッチ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">食パン使った料理</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe03.jpg" alt="ボリューム満点！豚のにんにくみそ焼き">
+                <p class='article-thumbnail-label'>14人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ボリューム満点！豚のにんにくみそ焼きの作り方</h3>
+              <p class='layout-bottom-small'>心の底から満足させてくれる肉のおかず。豚肉を焼き【みそ＋醤油＋みりん＋砂糖＋おろしニンニク＋水】をからめ、ご飯にのっけなさい…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">豚肉を使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">がっつり食べたい</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">短時間レシピ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ごはんがすすむ</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe04.jpg" alt="メイク用パウダーパフ">
+                <p class='article-thumbnail-label'>16人がみています</p>
+                <p class='article-thumbnail-category living'>暮らし</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>専用道具は使わない！メイク用パウダーパフのお手入れ方法</h3>
+              <p class='layout-bottom-small'>皮脂を吸い込んだメイク道具には雑菌がいっぱい！専用洗剤を使わなくてもいいので、こまめに洗って清潔にしてね。石鹸だと多少コスメの色が残ったりしますが、バイキンは洗い流せます。最初に10分ほどぬるま湯につけておくのがポイント！…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">メイク道具のお手入れ</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe05.jpg" alt="ピーアン佃煮">
+                <p class='article-thumbnail-label'>18人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ピーマン嫌いも大丈夫！ご飯にぴったりのピーマン佃煮の作り方</h3>
+              <p class='layout-bottom-small'>巷には無限ピーマンって名レシピがあるけど、ピーマンの苦味はタテに切ると出にくく油で炒めると和らぐ。甘辛く炒めるとご飯に合いすぎて、どっちがお供かわからんほど食べられるのでピーマンしかないときは佃煮やってみて！…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">ごはんがすすむ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">常備菜</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ピーマンを使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ごまを使った料理</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe06.jpg" alt="トマトリゾット">
+                <p class='article-thumbnail-label'>16人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>【超絶簡単】包丁もお鍋も使わない！トマトリゾットの作り方</h3>
+              <p class='layout-bottom-small'>なんだか熱っぽい…寝ていたいけど薬飲むから何か食べなきゃ…。そんなときは冷やご飯on丸ごとトマトon塩を電子レンジでチン！これだけでトマトリゾットが完成だよ…やさしすぎる。「助かるなぁ」って気持ちだけでも心がずいぶん休まるね。…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">トマトを使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">おそごはん</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">電子レンジだけ料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">短時間レシピ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p class='layout-align-right'><a class='anchor anchor-arrow' href="#">ライフレシピをもっとみる</a></p>
+      </article>
+      <article class='layout-article article'>
+        <div class='layout-bottom clearfix'>
+          <h2 class='left article-title'>今一番ホットなライフレシピ</h2>
+          <p class='right article-subtitle'>数時間のうちにたくさん見られたレシピです</p>
+        </div>
+        <ul class='layout-half layout-bottom'>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe01.jpg" alt="レンジで簡単!自家製「ガリ」">
+                <span class='article-thumbnail-label'>27人がみています</span>
+                <span class='article-thumbnail-category cuisine'>料理</span>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>レンジで簡単！ 自家製「ガリ」の作り方</h3>
+              <p class='layout-bottom-small'>自家製「ガリ」は一度作ったらもう市販のは食べられなくなるほど美味しいぞ！新生姜＋酢＋砂糖＋塩だけで作れて自分好みの甘酸っぱさに簡単調節。新しょうがはハウス栽培が5月頃、露地栽培は11月頃が旬だよ。</p>
+            </a>
+            <ul class='full' class='tag-list'>
+              <li class='tag'><a class='tag-anchor' href="#">お漬物</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">常備菜</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">自家製シリーズ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">暑い日・夏に食べたい</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe02.jpg" alt="純喫茶風「ボリュームたまごサンド」">
+                <p class='article-thumbnail-label'>75人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ほおばる幸せ！純喫茶風「ボリュームたまごサンド」の作り方</h3>
+              <p class='layout-bottom-small'>純喫茶でレトロカップを傾けるタイプの厚焼きたまごサンドは、たまご焼きが下手でも熱いうちにラップに包めばきれいに固まるので大丈夫。問題はかぶりつくとほっぺたパンパン美味しさじゅわぁ...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">純喫茶風メニュー</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">nanapi編集部取材記事</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">サンドイッチ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">食パン使った料理</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe03.jpg" alt="ボリューム満点！豚のにんにくみそ焼き">
+                <p class='article-thumbnail-label'>14人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ボリューム満点！豚のにんにくみそ焼きの作り方</h3>
+              <p class='layout-bottom-small'>心の底から満足させてくれる肉のおかず。豚肉を焼き【みそ＋醤油＋みりん＋砂糖＋おろしニンニク＋水】をからめ、ご飯にのっけなさい…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">豚肉を使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">がっつり食べたい</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">短時間レシピ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ごはんがすすむ</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe04.jpg" alt="メイク用パウダーパフ">
+                <p class='article-thumbnail-label'>16人がみています</p>
+                <p class='article-thumbnail-category living'>暮らし</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>専用道具は使わない！メイク用パウダーパフのお手入れ方法</h3>
+              <p class='layout-bottom-small'>皮脂を吸い込んだメイク道具には雑菌がいっぱい！専用洗剤を使わなくてもいいので、こまめに洗って清潔にしてね。石鹸だと多少コスメの色が残ったりしますが、バイキンは洗い流せます。最初に10分ほどぬるま湯につけておくのがポイント！…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">メイク道具のお手入れ</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe05.jpg" alt="ピーアン佃煮">
+                <p class='article-thumbnail-label'>18人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>ピーマン嫌いも大丈夫！ご飯にぴったりのピーマン佃煮の作り方</h3>
+              <p class='layout-bottom-small'>巷には無限ピーマンって名レシピがあるけど、ピーマンの苦味はタテに切ると出にくく油で炒めると和らぐ。甘辛く炒めるとご飯に合いすぎて、どっちがお供かわからんほど食べられるのでピーマンしかないときは佃煮やってみて！…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">ごはんがすすむ</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">常備菜</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ピーマンを使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">ごまを使った料理</a></li>
+            </ul>
+          </li>
+          <li class='layout-article-item article-item'>
+            <a class='article-item-anchor' href='#'>
+              <div class='layout-bottom-small article-thumbnail'>
+                <img class='full' src="./dst/img/hot-recipe06.jpg" alt="トマトリゾット">
+                <p class='article-thumbnail-label'>16人がみています</p>
+                <p class='article-thumbnail-category cuisine'>料理</p>
+              </div>
+              <h3 class='layout-bottom-small article-item-title'>【超絶簡単】包丁もお鍋も使わない！トマトリゾットの作り方</h3>
+              <p class='layout-bottom-small'>なんだか熱っぽい…寝ていたいけど薬飲むから何か食べなきゃ…。そんなときは冷やご飯on丸ごとトマトon塩を電子レンジでチン！これだけでトマトリゾットが完成だよ…やさしすぎる。「助かるなぁ」って気持ちだけでも心がずいぶん休まるね。…豚のあまい脂にニンニクと味噌の芳ばしさがしみこみ、ご飯の上でとろけます。これが極楽か…。...で満面の笑みになっちゃうことだ。怖いおじさんでもだ。</p>
+            </a>
+            <ul class='label-list'>
+              <li class='tag'><a class='tag-anchor' href="#">トマトを使った料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">おそごはん</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">電子レンジだけ料理</a></li>
+              <li class='tag'><a class='tag-anchor' href="#">短時間レシピ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p class='layout-align-right'><a class='anchor anchor-arrow' href="#">ライフレシピをもっとみる</a></p>
+      </article>
+    </div>
     <aside class='layout-side'>
       <p>ライフレシピをさがす</p>
       <p>タグからさがす</p>

@@ -1,8 +1,11 @@
 .anchor {
   color: #2b7bb9;
+  font-size: 14px;
+  font-weight: bold;
 
   &.anchor-arrow {
     position: relative;
+    padding-right: 10px;
 
     &:after {
       border: 2px solid;

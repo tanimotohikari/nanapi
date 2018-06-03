@@ -40,12 +40,22 @@
       position: absolute;
       bottom: 12px;
       right: 6px;
-      color: #fca87d;
+      color: #969696;
       font-size: 10px;
       line-height: 1.5em;
-      border: 2px solid #fca87d;
+      border: 2px solid #969696;
       background-color: #fff;
       padding: 1px 5px;
+
+      &.cuisine {
+        color: #fca87d;
+        border: 2px solid #fca87d;
+      }
+
+      &.living {
+        clor: #a696de;
+        border: 2px solid #a696de;
+      }
     }
   }
 
