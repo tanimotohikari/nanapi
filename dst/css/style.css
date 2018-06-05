@@ -405,3 +405,17 @@ body, a {
 
 .text-large {
   font-size: 16px !important; }
+
+.search {
+  position: relative; }
+  .search .search-input {
+    font-size: 14px;
+    padding: 10px 5px;
+    box-sizing: border-box; }
+    .search .search-input:focus {
+      outline: 0; }
+  .search .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -12px; }
