@@ -13,16 +13,16 @@
 
   .layout-mainVisual-navi {
     width: 66%;
-    float: left;
+    float: right;
 
     & > li {
-      width: 31%;
+      @include widtnPercent(620, 200);
       float: left;
       margin-right: 1.5%;
       margin-bottom: 1%;
       box-sizing: border-box;
 
-      &:last-child {
+      &:nth-child(3n) {
         margin-right: 0;
       }
     }

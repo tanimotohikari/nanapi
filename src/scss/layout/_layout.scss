@@ -1,4 +1,11 @@
 /*--------------------
+  分割レイアウト用mixin
+--------------------*/
+@mixin widtnPercent( $parentPxWidth, $pxWidth ){
+  width: ( $pxWidth / $parentPxWidth ) * 100%;
+}
+
+/*--------------------
   コンテンツのインナー
 --------------------*/
 .layout-inner {
