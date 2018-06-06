@@ -136,6 +136,30 @@ body, a {
   .layout-half > *:nth-child(2n) {
     margin-right: 0; }
 
+/*--------------------
+  mediaレイアウト
+--------------------*/
+.layout-media {
+  height: 82px; }
+  .layout-media:after {
+    content: '';
+    clear: both;
+    display: block; }
+  .layout-media > *:first-child {
+    margin-right: 2%; }
+  .layout-media .layout-media-thumbnail {
+    width: 28%;
+    float: left; }
+  .layout-media .layout-media-body {
+    width: 70%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .layout-media .layout-media-body .layout-media-body-history {
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+
 .layout-header .layout-header-text {
   margin-top: 5px; }
 
@@ -419,3 +443,21 @@ body, a {
     top: 50%;
     right: 10px;
     margin-top: -12px; }
+
+.media {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #303030; }
+  .media .media-body .media-body-title {
+    font-size: 14px;
+    line-height: 1.5em; }
+  .media .media-body .media-body-history {
+    color: #747474;
+    font-size: 12px; }
+    .media .media-body .media-body-history:before {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: url("../../dst/img/icon-clock.png") no-repeat;
+      background-size: 13px;
+      vertical-align: text-bottom; }

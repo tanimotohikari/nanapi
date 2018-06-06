@@ -117,3 +117,39 @@
     }
   }
 }
+
+/*--------------------
+  mediaレイアウト
+--------------------*/
+
+.layout-media {
+  height: 82px;
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  & > *:first-child {
+    margin-right: 2%;
+  }
+
+  .layout-media-thumbnail {
+    width: 28%;
+    float: left;
+  }
+
+  .layout-media-body {
+    width: 70%;
+    height: 100%;
+    float: left;
+    position: relative;
+
+    .layout-media-body-history {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}

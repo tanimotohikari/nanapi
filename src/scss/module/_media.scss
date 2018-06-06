@@ -1,0 +1,27 @@
+.media {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #303030;
+
+  .media-body {
+
+    .media-body-title {
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+
+    .media-body-history {
+      color: #747474;
+      font-size: 12px;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url('../../dst/img/icon-clock.png') no-repeat;
+        background-size: 13px;
+        vertical-align: text-bottom;
+      }
+    }
+  }
+}
