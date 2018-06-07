@@ -342,61 +342,13 @@ body, a {
     .article .article-item-anchor:hover > .article-item-title {
       color: #2b7bb9; }
 
-.article {
-  border-top: 2px solid rgba(202, 179, 136, 0.7);
-  padding-top: 20px; }
-  .article.feature {
-    border-top: 2px solid rgba(255, 134, 134, 0.7); }
-  .article .article-title {
-    font-size: 19px;
-    font-weight: bold; }
-  .article .article-subtitle {
-    font-size: 14px;
-    line-height: 1.5em; }
-  .article .article-thumbnail {
-    position: relative; }
-    .article .article-thumbnail .article-thumbnail-label {
-      position: absolute;
-      bottom: 12px;
-      left: 6px;
-      color: #fff;
-      font-size: 12px;
-      background-color: rgba(202, 179, 136, 0.7);
-      padding: 1px 5px; }
-      .article .article-thumbnail .article-thumbnail-label:before {
-        content: '';
-        display: inline-block;
-        width: 9px;
-        height: 12px;
-        background: url("../../dst/img/icon-human.png") no-repeat;
-        background-size: 9px;
-        vertical-align: -1px;
-        padding-left: 5px; }
-    .article .article-thumbnail .article-thumbnail-category {
-      position: absolute;
-      bottom: 12px;
-      right: 6px;
-      color: #969696;
-      font-size: 10px;
-      line-height: 1.5em;
-      border: 2px solid #969696;
+.contents {
+  padding: 10px; }
+  .contents.contents-foundation {
+    background-color: #f4f4f4; }
+    .contents.contents-foundation .contents-foundation-inner {
       background-color: #fff;
-      padding: 1px 5px; }
-      .article .article-thumbnail .article-thumbnail-category.cuisine {
-        color: #fca87d;
-        border: 2px solid #fca87d; }
-      .article .article-thumbnail .article-thumbnail-category.living {
-        clor: #a696de;
-        border: 2px solid #a696de; }
-  .article .article-item-title {
-    font-size: 16px;
-    font-weight: bold; }
-  .article .article-item-anchor {
-    color: #333;
-    font-size: 13px;
-    line-height: 1.6em; }
-    .article .article-item-anchor:hover > .article-item-title {
-      color: #2b7bb9; }
+      padding: 20px; }
 
 .tag {
   display: inline-block;
@@ -461,3 +413,61 @@ body, a {
       background: url("../../dst/img/icon-clock.png") no-repeat;
       background-size: 13px;
       vertical-align: text-bottom; }
+
+.news .news-title {
+  font-weight: bold; }
+  .news .news-title:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    background: url("../../dst/img/icon-info.png") no-repeat;
+    background-size: 21px;
+    vertical-align: middle; }
+
+.news .news-list > li {
+  border-bottom: 1px dotted #d0d0d0;
+  line-height: 1.5em;
+  padding: 10px 0; }
+
+.news .news-list .news-list-anchor {
+  color: #303030;
+  font-size: 14px; }
+  .news .news-list .news-list-anchor:hover {
+    color: #2b7bb9; }
+
+.news .news-list .news-list-posted {
+  color: #747474;
+  font-size: 12px; }
+
+.request .request-title {
+  font-weight: bold; }
+  .request .request-title:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    background: url("../../dst/img/icon-request.png") no-repeat;
+    background-size: 21px;
+    vertical-align: -4px; }
+
+.request .request-text {
+  color: #747474;
+  font-size: 12px; }
+
+.request .request-input {
+  width: 100%;
+  height: 80px;
+  display: block;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  padding: 0;
+  resize: none; }
+
+.request .request-btn {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #303030;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0; }

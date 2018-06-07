@@ -1,0 +1,42 @@
+.request {
+
+  .request-title {
+    font-weight: bold;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 25px;
+      height: 21px;
+      background: url('../../dst/img/icon-request.png') no-repeat;
+      background-size: 21px;
+      vertical-align: -4px;
+    }
+  }
+
+  .request-text {
+    color: #747474;
+    font-size: 12px;
+  }
+
+  .request-input {
+    width: 100%;
+    height: 80px;
+    display: block;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    //既存cssを打ち消すためのstyle
+    padding: 0;
+    resize: none;
+  }
+
+  .request-btn {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #303030;
+    font-size: 14px;
+    font-weight: bold;
+    //既存cssを打ち消すためのstyle
+    padding: 0;
+  }
+}

@@ -1,0 +1,39 @@
+.news {
+
+  .news-title {
+    font-weight: bold;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 25px;
+      height: 21px;
+      background: url('../../dst/img/icon-info.png') no-repeat;
+      background-size: 21px;
+      vertical-align: middle;
+    }
+  }
+
+  .news-list {
+
+    & > li {
+      border-bottom: 1px dotted #d0d0d0;
+      line-height: 1.5em;
+      padding: 10px 0;
+    }
+
+    .news-list-anchor {
+      color: #303030;
+      font-size: 14px;
+
+      &:hover {
+        color: #2b7bb9;
+      }
+    }
+
+    .news-list-posted {
+      color: #747474;
+      font-size: 12px;
+    }
+  }
+}

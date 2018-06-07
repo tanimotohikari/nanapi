@@ -14,11 +14,10 @@
 @import 'module/footer';
 @import 'module/anchor';
 @import 'module/article';
-@import 'module/article';
+@import 'module/contents';
 @import 'module/tag';
 @import 'module/text';
 @import 'module/search';
 @import 'module/media';
-
-// state
-// @import 'state/state';
+@import 'module/news';
+@import 'module/request';

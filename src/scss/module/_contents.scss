@@ -1,0 +1,12 @@
+.contents {
+  padding: 10px;
+
+  &.contents-foundation {
+    background-color: #f4f4f4;
+
+    .contents-foundation-inner {
+      background-color: #fff;
+      padding: 20px;
+    }
+  }
+}
