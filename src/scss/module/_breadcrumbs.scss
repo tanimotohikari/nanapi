@@ -1,0 +1,36 @@
+.breadcrumbs {
+
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  & > li {
+    float: left;
+  }
+
+  .breadcrumbs-anchor {
+    color: #747474;
+    font-size: 12px;
+    vertical-align: middle;
+    position: relative;
+    padding-right: 20px;
+
+    &.breadcrumbs-anchor-arrow {
+
+      &:after {
+        border: 1px solid;
+        border-color: #747474 #747474 transparent transparent;
+        content: '';
+        display: inline-block;
+        transform: rotate(45deg);
+        margin: -4px 4px;
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        top: 50%;
+      }
+    }
+  }
+}
