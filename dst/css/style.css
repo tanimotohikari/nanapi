@@ -71,13 +71,16 @@ body, a {
   margin-left: 4%; }
 
 /*--------------------
-  コンテンツ寄せ　左右
+  コンテンツ寄せ　左右、中央
 --------------------*/
 .left {
   float: left; }
 
 .right {
   float: right; }
+
+.center {
+  margin: 0 auto; }
 
 /*--------------------
   margin
@@ -123,6 +126,9 @@ body, a {
 
 .layout-align-right {
   text-align: right; }
+
+.layout-align-center {
+  text-align: center; }
 
 /*--------------------
   テキストの行間
@@ -549,3 +555,52 @@ body, a {
     height: 4px;
     position: absolute;
     top: 50%; }
+
+.pagination {
+  width: 310px;
+  position: relative; }
+  .pagination .pagination-list {
+    display: table; }
+    .pagination .pagination-list > li {
+      display: table-cell;
+      border: 1px solid #d0d0d0;
+      font-size: 12px;
+      padding: 20px; }
+      .pagination .pagination-list > li:nth-child(2n) {
+        border-left: 0;
+        border-right: 0; }
+      .pagination .pagination-list > li.active {
+        background-color: #303030;
+        border: 1px solid #303030; }
+    .pagination .pagination-list:after {
+      content: '…';
+      padding: 20px; }
+    .pagination .pagination-list .pagination-list-anchor {
+      color: #303030; }
+      .pagination .pagination-list .pagination-list-anchor.active {
+        color: #fff;
+        background-color: #303030;
+        border: 1px solid #303030; }
+  .pagination .pagination-next {
+    content: '';
+    border: 2px solid;
+    border-color: #303030 #303030 transparent transparent;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin: -12px 0;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    right: 5px; }
+    .pagination .pagination-next:after {
+      content: '';
+      border: 2px solid;
+      border-color: #303030 #303030 transparent transparent;
+      display: inline-block;
+      margin: -10px 0;
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      top: 50%;
+      right: -7px; }

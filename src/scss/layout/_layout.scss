@@ -30,7 +30,7 @@
 }
 
 /*--------------------
-  コンテンツ寄せ　左右
+  コンテンツ寄せ　左右、中央
 --------------------*/
 
 .left {
@@ -39,6 +39,10 @@
 
 .right {
   float: right;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 /*--------------------
@@ -98,6 +102,10 @@
 
 .layout-align-right {
   text-align: right;
+}
+
+.layout-align-center {
+  text-align: center;
 }
 
 /*--------------------
