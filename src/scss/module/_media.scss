@@ -1,12 +1,28 @@
 .media {
   padding-bottom: 10px;
   border-bottom: 1px dotted #303030;
+  display: block;
 
   .media-body {
 
     .media-body-title {
-      font-size: 14px;
+      font-size: 19px;
       line-height: 1.5em;
+
+      &.small {
+        font-size: 14px;
+      }
+    }
+
+    .media-body-text {
+      color: #747474;
+      font-size: 12px;
+      line-height: 1.5em;
+    }
+
+    .media-body-posted {
+      color: #747474;
+      font-size: 12px;
     }
 
     .media-body-history {

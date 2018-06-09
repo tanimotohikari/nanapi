@@ -61,6 +61,10 @@
   margin-bottom: 40px;
 }
 
+.layout-left-xsamll {
+  margin-left: 5px;
+}
+
 .layout-left-samll {
   margin-left: 10px;
 }
@@ -97,6 +101,14 @@
 }
 
 /*--------------------
+  テキストの行間
+--------------------*/
+
+.layout-lineheight {
+  line-height: 1.5em;
+}
+
+/*--------------------
   2カラムレイアウト
 --------------------*/
 .layout-half {
@@ -123,7 +135,11 @@
 --------------------*/
 
 .layout-media {
-  height: 82px;
+  display: table;
+
+  &.layout-media-height {
+    height: 82px;
+  }
 
   &:after {
     content: '';
@@ -138,6 +154,12 @@
   .layout-media-thumbnail {
     width: 28%;
     float: left;
+    display: table-cell;
+
+    &.small {
+      width: 140px;
+      height: 140px;
+    }
   }
 
   .layout-media-body {
@@ -145,6 +167,11 @@
     height: 100%;
     float: left;
     position: relative;
+    display: table-cell;
+
+    &.large {
+      width: 74%;
+    }
 
     .layout-media-body-history {
       position: absolute;

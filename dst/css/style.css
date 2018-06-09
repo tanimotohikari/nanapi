@@ -94,6 +94,9 @@ body, a {
 .layout-bottom-xlarge {
   margin-bottom: 40px; }
 
+.layout-left-xsamll {
+  margin-left: 5px; }
+
 .layout-left-samll {
   margin-left: 10px; }
 
@@ -122,6 +125,12 @@ body, a {
   text-align: right; }
 
 /*--------------------
+  テキストの行間
+--------------------*/
+.layout-lineheight {
+  line-height: 1.5em; }
+
+/*--------------------
   2カラムレイアウト
 --------------------*/
 .layout-half:after {
@@ -140,7 +149,9 @@ body, a {
   mediaレイアウト
 --------------------*/
 .layout-media {
-  height: 82px; }
+  display: table; }
+  .layout-media.layout-media-height {
+    height: 82px; }
   .layout-media:after {
     content: '';
     clear: both;
@@ -149,12 +160,19 @@ body, a {
     margin-right: 2%; }
   .layout-media .layout-media-thumbnail {
     width: 28%;
-    float: left; }
+    float: left;
+    display: table-cell; }
+    .layout-media .layout-media-thumbnail.small {
+      width: 140px;
+      height: 140px; }
   .layout-media .layout-media-body {
     width: 70%;
     height: 100%;
     float: left;
-    position: relative; }
+    position: relative;
+    display: table-cell; }
+    .layout-media .layout-media-body.large {
+      width: 74%; }
     .layout-media .layout-media-body .layout-media-body-history {
       position: absolute;
       bottom: 0;
@@ -289,14 +307,8 @@ body, a {
 .article {
   border-top: 2px solid rgba(202, 179, 136, 0.7);
   padding-top: 20px; }
-  .article.feature {
-    border-top: 2px solid rgba(255, 134, 134, 0.7); }
-  .article .article-title {
-    font-size: 19px;
-    font-weight: bold; }
-  .article .article-subtitle {
-    font-size: 14px;
-    line-height: 1.5em; }
+  .article.living {
+    border-top: 2px solid rgba(166, 150, 222, 0.7); }
   .article .article-thumbnail {
     position: relative; }
     .article .article-thumbnail .article-thumbnail-label {
@@ -358,10 +370,12 @@ body, a {
   padding: 7px 10px;
   border-radius: 50px;
   margin-bottom: 10px; }
+  .tag.offset-border {
+    border: 0;
+    padding: 0; }
   .tag:before {
     content: '#';
-    color: #969696;
-    padding-right: 5px; }
+    color: #969696; }
   .tag:hover {
     background-color: #F4F4F4; }
   .tag .tag-anchor {
@@ -382,6 +396,28 @@ body, a {
 .text-large {
   font-size: 16px !important; }
 
+.text-title {
+  font-size: 19px;
+  font-weight: bold; }
+
+.text-title-supplement {
+  font-size: 14px;
+  line-height: 1.5em; }
+
+.text-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid #969696; }
+  .text-subtitle.cuisine {
+    border-color: #fca87d; }
+  .text-subtitle.living {
+    border-color: #a696de; }
+
+.text-lead {
+  font-size: 13px;
+  line-height: 1.5em; }
+
 .search {
   position: relative; }
   .search .search-input {
@@ -398,10 +434,20 @@ body, a {
 
 .media {
   padding-bottom: 10px;
-  border-bottom: 1px dotted #303030; }
+  border-bottom: 1px dotted #303030;
+  display: block; }
   .media .media-body .media-body-title {
-    font-size: 14px;
+    font-size: 19px;
     line-height: 1.5em; }
+    .media .media-body .media-body-title.small {
+      font-size: 14px; }
+  .media .media-body .media-body-text {
+    color: #747474;
+    font-size: 12px;
+    line-height: 1.5em; }
+  .media .media-body .media-body-posted {
+    color: #747474;
+    font-size: 12px; }
   .media .media-body .media-body-history {
     color: #747474;
     font-size: 12px; }
@@ -471,3 +517,9 @@ body, a {
   font-size: 14px;
   font-weight: bold;
   padding: 0; }
+
+.list .list-anchor {
+  color: #303030;
+  font-size: 14px; }
+  .list .list-anchor:hover {
+    color: #2b7bb9; }

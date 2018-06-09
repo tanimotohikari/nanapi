@@ -7,10 +7,14 @@
   border-radius: 50px;
   margin-bottom: 10px;
 
+  &.offset-border {
+    border: 0;
+    padding: 0;
+  }
+
   &:before {
     content: '#';
     color: #969696;
-    padding-right: 5px;
   }
 
   &:hover {

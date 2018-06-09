@@ -2,18 +2,8 @@
   border-top: 2px solid rgba(202, 179, 136, .7);
   padding-top: 20px;
 
-  &.feature {
-    border-top: 2px solid rgba(255, 134, 134, .7);
-  }
-
-  .article-title {
-    font-size: 19px;
-    font-weight: bold;
-  }
-
-  .article-subtitle {
-    font-size: 14px;
-    line-height: 1.5em;
+  &.living {
+    border-top: 2px solid rgba(166, 150, 222, .7);
   }
 
   .article-thumbnail {
