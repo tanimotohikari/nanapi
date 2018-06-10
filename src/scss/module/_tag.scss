@@ -1,20 +1,25 @@
 .tag {
   display: inline-block;
   font-size: 12px;
-  color: #969696;
   border: 1px solid #969696;
   padding: 7px 10px;
   border-radius: 50px;
   margin-bottom: 10px;
 
-  &.offset-border {
+  &.tag-offset-border {
     border: 0;
     padding: 0;
   }
 
-  &:before {
-    content: '#';
-    color: #969696;
+  &.tag-add {
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      background: url('../../dst/img/icon-plus.png') no-repeat;
+    }
   }
 
   &:hover {
@@ -23,5 +28,10 @@
 
   .tag-anchor {
     color: #969696;
+
+    &:before {
+      content: '#';
+      color: #969696;
+    }
   }
 }

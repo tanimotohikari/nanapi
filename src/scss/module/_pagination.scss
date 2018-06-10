@@ -9,7 +9,6 @@
       display: table-cell;
       border: 1px solid #d0d0d0;
       font-size: 12px;
-      padding: 20px;
 
       &:nth-child(2n) {
         border-left: 0;
@@ -29,6 +28,8 @@
 
     .pagination-list-anchor {
       color: #303030;
+      padding: 20px;
+      display: inline-block;
 
       &.active {
         color: #fff;
